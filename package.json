@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-i18n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyh-code/babel-plugin-i18n.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyh-code/babel-plugin-i18n/issues"
+  },
+  "homepage": "https://github.com/wyh-code/babel-plugin-i18n#readme",
+  "dependencies": {
+    "@babel/generator": "^7.20.14",
+    "md5": "^2.3.0"
+  }
+}
