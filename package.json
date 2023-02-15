@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-i18n",
+  "name": "babel-plugin-react-i18n",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
