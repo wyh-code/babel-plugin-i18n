@@ -10,7 +10,7 @@
 ```js
   {
     plugins: [
-      ['babel-plugin-i18n', {
+      ['babel-plugin-react-i18n', {
         appName: 'appName',
         i18nFunctionName: '$$i18n',
         getLocaleAndMap: (textMap, file) => console.log(textMap, file) // file 参数为 babel 中 file 对象
