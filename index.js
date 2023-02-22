@@ -90,7 +90,11 @@ module.exports = (apis, config) => {
       }
     },
     post(file) {
-      if(options.getLocaleAndMap && typeof options.getLocaleAndMap === 'function' ){
+      log.green("options.getLocaleAndMap", options.getLocaleAndMap);
+      log.green("typeof options.getLocaleAndMap", typeof options.getLocaleAndMap === 'function');
+      log.green("textMap", textMap);
+
+      if(options.getLocaleAndMap && typeof options.getLocaleAndMap === 'function'){
         options.getLocaleAndMap(textMap, file)
       }else{
         save(textMap, file.opts.cwd)
